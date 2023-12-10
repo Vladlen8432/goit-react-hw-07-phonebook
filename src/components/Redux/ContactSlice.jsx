@@ -18,7 +18,6 @@ const ContactSlice = createSlice({
     items: [],
     isLoading: false,
     error: null,
-    // blacklist: ['filter'],
     filter: '',
   },
   reducers: {
