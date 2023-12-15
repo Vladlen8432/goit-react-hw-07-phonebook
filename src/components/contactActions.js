@@ -20,7 +20,7 @@ export const handleAddContact = async (
     };
 
     try {
-      const response = await fetch('https://656657da64fcff8d730eb5c2.mockapi.io/api/vshark/contacts', {
+      const response = await fetch('https://657cc619853beeefdb99f3c6.mockapi.io/vlasark/contacts', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

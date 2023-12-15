@@ -3,7 +3,7 @@ import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 export const fetchContacts = createAsyncThunk('contacts/fetchAll', async () => {
   try {
     const response = await fetch(
-      'https://656657da64fcff8d730eb5c2.mockapi.io/api/vshark/contacts'
+      'https://657cc619853beeefdb99f3c6.mockapi.io/vlasark/contacts'
     );
     const data = await response.json();
     return data;
