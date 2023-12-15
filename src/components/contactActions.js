@@ -44,7 +44,7 @@ export const handleAddContact = async (
 
 export const handleDeleteContact = async (dispatch, id) => {
   try {
-    const response = await fetch(`https://656657da64fcff8d730eb5c2.mockapi.io/api/vshark/contacts/${id}`, {
+    const response = await fetch(`https://657cc619853beeefdb99f3c6.mockapi.io/vlasark/contacts/${id}`, {
       method: 'DELETE',
     });
 
