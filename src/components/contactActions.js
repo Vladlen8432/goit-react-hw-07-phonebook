@@ -6,7 +6,7 @@ export const handleAddContact = async (
   dispatch,
   contacts,
   name,
-  number,
+  phone,
   setName,
   setNumber
 ) => {
@@ -16,7 +16,7 @@ export const handleAddContact = async (
     const newContact = {
       id: nanoid(),
       name: name,
-      number: number,
+      phone: phone,
     };
 
     try {
